@@ -361,3 +361,31 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Visual Studio — пользовательские файлы
+*.vcxproj.user
+*.vcxproj.filters
+*.user
+*.suo
+*.sln.docstates
+
+# Build
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+
+# Кэш
+.vs/
+*.log
+
+# Ignore Visual Studio solution and project files
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
